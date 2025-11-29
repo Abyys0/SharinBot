@@ -6,6 +6,10 @@ function loadConfig() {
   // Priorize environment variables first (for production/Render)
   if (process.env.BOT_TOKEN) {
     console.log('✅ Usando variáveis de ambiente');
+    console.log('🔍 Debug - RANKING_CHANNEL_ID:', process.env.RANKING_CHANNEL_ID || 'UNDEFINED');
+    console.log('🔍 Debug - BOT_TOKEN existe:', !!process.env.BOT_TOKEN);
+    console.log('🔍 Debug - CLIENT_ID:', process.env.CLIENT_ID || 'UNDEFINED');
+    
     return {
       token: process.env.BOT_TOKEN,
       clientId: process.env.CLIENT_ID,
