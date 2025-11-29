@@ -1,0 +1,16 @@
+{
+  "token": "YOUR_BOT_TOKEN_HERE",
+  "clientId": "YOUR_CLIENT_ID_HERE",
+  "guildId": "YOUR_GUILD_ID_HERE",
+  "adminRoleId": "ADMIN_ROLE_ID_1,ADMIN_ROLE_ID_2,ADMIN_ROLE_ID_3",
+  "rankingChannelId": "YOUR_RANKING_CHANNEL_ID",
+  "ticketCategoryId": "YOUR_TICKET_CATEGORY_ID",
+  "ticketChannelId": "YOUR_TICKET_CHANNEL_ID",
+  "gameModes": {
+    "1x1": 2,
+    "2x2": 2,
+    "3x3": 2,
+    "4x4": 2
+  },
+  "matchValues": [50, 20, 10, 7, 5, 3, 2, 1]
+}
