@@ -6,7 +6,7 @@ const {
   StringSelectMenuBuilder,
   PermissionFlagsBits 
 } = require('discord.js');
-const config = require('../config.json');
+const config = require('../config.loader');
 
 class InteractionHandler {
   constructor(queueManager, matchManager, rankingManager, database, client) {

@@ -1,5 +1,5 @@
 const { PermissionFlagsBits, ChannelType } = require('discord.js');
-const config = require('../config.json');
+const config = require('../config.loader');
 
 class MatchManager {
   constructor(database, client) {
